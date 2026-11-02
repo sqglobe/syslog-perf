@@ -1,0 +1,33 @@
+<34>Oct 27 09:00:01 web01 sshd[2178]: Accepted publickey for alice
+<38>Oct 27 09:00:02 web01 sshd[2178]: session opened
+<30>Oct 27 09:00:03 web01 systemd[1]: Started Session 104
+<27>Oct 27 09:00:04 web01 systemd[1]: Failed to start backup
+<86>Oct 27 09:00:05 web01 sudo[2451]: COMMAND=/usr/bin/id
+<11>Oct 27 09:00:06 web01 kernel: I/O error on device sda
+<8>Oct 27 09:00:07 web01 kernel: panic simulated for testing
+<9>Oct 27 09:00:08 web01 kernel: action required
+<10>Oct 27 09:00:09 web01 kernel: critical failure
+<11>Oct 27 09:00:10 web01 kernel: disk error
+<27>Oct 27 09:00:12 web01 systemd[1]: unit error
+<12>Oct 27 09:00:14 web01 nginx[3124]: low space
+<20>Oct 27 09:00:15 web01 nginx[3124]: resource pressure
+<28>Oct 27 09:00:16 web01 nginx[3124]: warning limit
+<13>Oct 27 09:00:17 web01 sshd[2182]: authentication notice
+<21>Oct 27 09:00:18 web01 sshd[2182]: service notice
+<29>Oct 27 09:00:19 web01 systemd[1]: service changed
+<37>Oct 27 09:00:20 web01 systemd[1]: scheduled job
+<45>Oct 27 09:00:21 web01 CRON[3012]: job completed
+<14>Oct 27 09:00:22 web01 CRON[3012]: info message
+<22>Oct 27 09:00:23 web01 CRON[3012]: info message
+<30>Oct 27 09:00:24 web01 sudo[2451]: information
+<38>Oct 27 09:00:25 web01 sudo[2451]: information
+<46>Oct 27 09:00:26 web01 nginx[3124]: access granted
+<62>Oct 27 09:00:28 web01 sshd[2178]: keepalive
+<7>Oct 27 09:00:29 web01 kernel: debug one
+<15>Oct 27 09:00:30 web01 kernel: debug two
+<23>Oct 27 09:00:31 web01 kernel: debug three
+Oct 27 09:00:32 web01 kernel: message without PRI
+Oct 27 09:00:33 web01 sshd[2190]: message without PRI
+Oct 27 09:00:34 web01 systemd[1]: message without PRI
+<201>Oct 27 09:00:35 web01 sshd[2190]: invalid priority
+not a syslog line
