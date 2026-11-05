@@ -42,8 +42,7 @@ void BM_analyze_syslog(benchmark::State& state)
         input.clear();
         input.seekg(0);
         auto stats = syslog::analyze_syslog(input);
-        benchmark::DoNotOptimize(stats.messages);
-        benchmark::DoNotOptimize(stats.processes);
+        benchmark::DoNotOptimize(stats);
     }
 
     state.SetItemsProcessed(static_cast<std::int64_t>(state.iterations()) *
@@ -54,5 +53,5 @@ void BM_analyze_syslog(benchmark::State& state)
 
 } // namespace
 
-BENCHMARK(BM_analyze_syslog)->Unit(benchmark::kMillisecond);
+BENCHMARK(BM_analyze_syslog);
 BENCHMARK_MAIN();
